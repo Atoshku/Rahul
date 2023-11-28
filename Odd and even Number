@@ -1,0 +1,10 @@
+#Odd or Even
+num=int(input("Enter a number\n"))
+#percent= num%2
+if num %2 == 0:
+    print("This is an even number.")
+
+else:
+    print("This is an odd number.")
+    
+    
