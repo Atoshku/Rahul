@@ -1,0 +1,9 @@
+# Making Day Remining calculator
+
+put=int(input("wgat is your current age\n"))
+
+day=(365*90)-(365*put)
+week=(52*90)-(52*put)
+months=(12*90)-(12*put)
+
+print(f"you have {day} days {week}week and {months} months left ")
