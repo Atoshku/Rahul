@@ -1,0 +1,13 @@
+#project tip calculator
+
+print("Welcome to the tip calculator")
+bill=int(input("What is the total bill?"))
+tip=int(input("what percentage tip you like to give 10,12,or 15?\n"))
+split=int(input("How many people to split the bill\n"))
+
+div=12/100
+mul=div*bill
+add=bill+mul
+spl=add/split
+
+print(f"Each person pay {spl}")
