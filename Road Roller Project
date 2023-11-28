@@ -1,0 +1,25 @@
+print("Welcome To Road Roller")
+height=int(input("Enter your height in \n"))
+age=int(input("Enter your age\n"))
+
+if height >=120:
+     print("You can ride")
+     if age<12:
+        print("you will pay $5")
+        
+     elif age <=18:
+         print("you will pay $7")
+         
+     else:
+        print("you will pay $12")
+        
+ 
+   
+    
+    
+else:
+    print("You can't ride")
+   
+        
+    
+   
